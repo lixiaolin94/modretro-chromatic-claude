@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "name": "ModRetro Chromatic Linux capture backend",
+  "ffmpegVersion": "8.0.3-modretro-capture1",
+  "libvpxVersion": "1.15.2",
+  "sourceRepository": "https://github.com/OpenAI-Partners/ModRetro-Chromatic-Plugin-for-Codex/tree/main/native/capture/source",
+  "sourceArchives": [
+    {
+      "name": "ffmpeg",
+      "commit": "8ae0b34901ba60a802f183ee75a250a9fc3e09a5",
+      "file": "ffmpeg-8ae0b34901ba60a802f183ee75a250a9fc3e09a5.tar.gz",
+      "bytes": 16451382,
+      "sha256": "3822f5dea04f069a90f8b445d00116d6410d1baf8f15d5f750d0626e5d6994f3"
+    },
+    {
+      "name": "libvpx",
+      "commit": "d168454ecd099805c675d4a98c66f4891373302a",
+      "file": "libvpx-d168454ecd099805c675d4a98c66f4891373302a.tar.gz",
+      "bytes": 5634851,
+      "sha256": "5f6519823db1cc67fba023dc5dcf33abcd3fbab65d7e3c6f1d8ff00917a8c1c6"
+    }
+  ],
+  "modification": {
+    "file": "../source/ffmpeg-v4l2-device-caps.patch",
+    "sha256": "8d4b341758506eba53288b4a99897f332d93adfce5abdd876f9f9d3e8b606b98",
+    "purpose": "Use node-specific V4L2 device_caps when advertised; reject metadata-only siblings through the ordinary capture-capability check."
+  },
+  "architectures": {
+    "arm64": {
+      "file": "arm64/ffmpeg",
+      "bytes": 4069520,
+      "sha256": "3003aebb5eb074dc1f7b7a98a6e19e35cd88f797e33ce947fada74ed5c560f78",
+      "elfMachine": 183,
+      "buildRecords": {
+        "FFMPEG-CONFIG-arm64.h": {
+          "bytes": 23293,
+          "sha256": "428bac32873c81b85de18abd9a19f95dd9b5ca2910b0722d581c7b7106fcd884"
+        },
+        "BUILD-PACKAGES-arm64.txt": {
+          "bytes": 3196,
+          "sha256": "9918f3a39defd169131791d275c91881ee02652e97a4d150d91a7844a2434cd4"
+        }
+      }
+    },
+    "x64": {
+      "file": "x64/ffmpeg",
+      "bytes": 5121992,
+      "sha256": "ac9ba3c56281b8759c5ba16590a6bcb769bc8c0986b2ca91cad8bc2d8306204b",
+      "elfMachine": 62,
+      "buildRecords": {
+        "FFMPEG-CONFIG-x64.h": {
+          "bytes": 23247,
+          "sha256": "eab3081e2769451330e6455329804c206e8c0bff0d0d958b9d743f0720929791"
+        },
+        "BUILD-PACKAGES-x64.txt": {
+          "bytes": 3196,
+          "sha256": "9918f3a39defd169131791d275c91881ee02652e97a4d150d91a7844a2434cd4"
+        }
+      }
+    }
+  },
+  "configuration": {
+    "network": false,
+    "gpl": false,
+    "nonfree": false,
+    "linkage": "Static ELF executable; no PT_INTERP or PT_DYNAMIC program header."
+  },
+  "licenses": [
+    "FFmpeg LGPL-2.1-or-later",
+    "libvpx BSD-3-Clause and patent grant",
+    "musl MIT",
+    "zlib license",
+    "GCC runtime exception"
+  ],
+  "qualification": {
+    "arm64": "Built and exercised in an isolated aarch64 Linux VM.",
+    "x64": "Built and exercised under existing x86_64 instruction translation in that aarch64 Linux VM; not native x64 hardware validation.",
+    "capture": "Real encoder, process, pipes, handoff, bounded WebM sink, PNG snapshot and closure with synthetic input. USB identity and capability inputs were mocked.",
+    "hardware": "No physical Linux capture, USB audio, long-duration capture or rendered UI acceptance.",
+    "reproducibility": "Pinned upstream source archives and build recipes are provided. Bit-for-bit reproducibility with a changed toolchain is not claimed.",
+    "signing": "No publisher signing, notarization, patent or legal-clearance claim."
+  }
+}

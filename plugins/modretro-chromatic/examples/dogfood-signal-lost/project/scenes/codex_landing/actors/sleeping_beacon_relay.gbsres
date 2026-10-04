@@ -1,0 +1,119 @@
+{
+  "_resourceType": "actor",
+  "id": "019ff100-0000-4000-8000-000000000304",
+  "_index": 3,
+  "symbol": "actor_sleeping_beacon_relay",
+  "prefabId": "",
+  "name": "Sleeping Beacon Relay",
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "019ff100-0000-4000-8000-000000000104",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "30e0a686-163b-4e99-8194-b133b3a96ef4",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c4b06591-5ce4-47a5-8799-74d73a569706",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "__collapseElse": false,
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "fbc0ce77-01d1-4b81-854f-e337e3df9163",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Two small lights\nmeet at last.\nBeacon awake!",
+                    "avatarId": ""
+                  }
+                },
+                {
+                  "id": "8aa86f60-8ad0-4916-89a7-cdb6b00e25c0",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "2",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                },
+                {
+                  "id": "39d973fd-1412-41ce-859d-792fc1096afc",
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "019ff100-0000-4000-8000-000000000203",
+                    "x": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 13
+                    },
+                    "direction": "up",
+                    "fadeSpeed": "2"
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "935b80e1-3f91-4562-8fef-ac9616b0deda",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "One more spark\nwill wake relay.",
+                    "avatarId": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "8f8ab85d-1e7e-4a59-84b8-8ab0583ad6a1",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "The relay sleeps\nFind two sparks.",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "modretro-chromatic-claude",
+  "owner": {
+    "name": "Community port"
+  },
+  "description": "Claude Code port of the MIT-licensed ModRetro Chromatic plugin: make Game Boy Color games with GB Studio and play them on a ModRetro Chromatic.",
+  "plugins": [
+    {
+      "name": "modretro-chromatic",
+      "source": "./plugins/modretro-chromatic",
+      "description": "Create, build, and playtest Game Boy / Game Boy Color games; stream demos or flash cartridges on a ModRetro Chromatic.",
+      "category": "creativity"
+    }
+  ]
+}

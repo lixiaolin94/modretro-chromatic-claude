@@ -1,0 +1,805 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "ModRetro Chromatic CLI binary distribution",
+      "version": "1.2.1"
+    },
+    "properties": [
+      {
+        "name": "modretro:coverage",
+        "value": "Six exact npm executables, their six complete notices, identified embedded components and Windows prerequisites. Not a complete transitive source-component or license audit."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-darwin-arm64",
+      "name": "ModRetro Chromatic CLI (darwin-arm64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-apple-darwin"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "darwin-arm64/bin/chromatic-cli"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "12997184"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-darwin-arm64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-y+rRE0ec5U+6sr2P0WXYsEoOWRfFsz/9V0Z1cNQtxQnQIgczaA2InwJ+Mhe9du6gn5yU2h2HL8gW9RiTTbYGgA=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "017d4a4a58e5cf2e0a0c2fc580623b8708ad7be826a706f619f7fd9f665e8875"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-arm64/-/chromatic-cli-darwin-arm64-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-darwin-arm64@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-darwin-arm64",
+      "name": "THIRD_PARTY_NOTICES.txt (darwin-arm64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3b23000848c1b98e87730b536a9a029ecb17e2ce0d77d8a7e8c19226d571aa7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-apple-darwin"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "darwin-arm64/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1596953"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-darwin-arm64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-y+rRE0ec5U+6sr2P0WXYsEoOWRfFsz/9V0Z1cNQtxQnQIgczaA2InwJ+Mhe9du6gn5yU2h2HL8gW9RiTTbYGgA=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "017d4a4a58e5cf2e0a0c2fc580623b8708ad7be826a706f619f7fd9f665e8875"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-arm64/-/chromatic-cli-darwin-arm64-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-darwin-x64",
+      "name": "ModRetro Chromatic CLI (darwin-x64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4b09e5c0ec0ac0837f1419548aa4a87b8638870a6213b8c9c39b50ac5c8ad0d1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-apple-darwin"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "darwin-x64/bin/chromatic-cli"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "14260892"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-darwin-x64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-WRg7eWNDwhHy+p8zwJYCU4voibqbOcV6vHPCsmoo5x3aJV2i4GZqQ3OV6gxOrjgUkdVQSwps6//5wYD+7UlqDg=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "7f1dbbf31da9338cbe07f5f9a9acdfeaf7010a5c5a7f1feb19366d55f801620c"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-x64/-/chromatic-cli-darwin-x64-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-darwin-x64@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-darwin-x64",
+      "name": "THIRD_PARTY_NOTICES.txt (darwin-x64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "39a847c252406ece8d979455ce1ee061e0bab80357107b25003c01b78db2ab11"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-apple-darwin"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "darwin-x64/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1596952"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-darwin-x64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-WRg7eWNDwhHy+p8zwJYCU4voibqbOcV6vHPCsmoo5x3aJV2i4GZqQ3OV6gxOrjgUkdVQSwps6//5wYD+7UlqDg=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "7f1dbbf31da9338cbe07f5f9a9acdfeaf7010a5c5a7f1feb19366d55f801620c"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-x64/-/chromatic-cli-darwin-x64-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-linux-arm64-gnu",
+      "name": "ModRetro Chromatic CLI (linux-arm64-gnu)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5b5921c0847d965ba9875a5d3db03784193c1a7c377f60bdaa68ccdbfee0958e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-unknown-linux-gnu"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "linux-arm64-gnu/bin/chromatic-cli"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "13374504"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-linux-arm64-gnu"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-b8ot2h124GDol1ivnpjHFo/B0tXppJdvKJEfAonEW0G98V5zOXyVBe74kH7qjhE4l23YSKfyL7z5437JUN1PhA=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "090500ea00d8e3c0d66e327d6db3cb9c4d05ff8d5cf035ca39788aeacc2d2554"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-arm64-gnu/-/chromatic-cli-linux-arm64-gnu-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-linux-arm64-gnu@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-linux-arm64-gnu",
+      "name": "THIRD_PARTY_NOTICES.txt (linux-arm64-gnu)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e31321f07fabffd543e4fdea00c1efdbaf8fe09ae39a14fded8e91d88d4a7f1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-unknown-linux-gnu"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "linux-arm64-gnu/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1560649"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-linux-arm64-gnu"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-b8ot2h124GDol1ivnpjHFo/B0tXppJdvKJEfAonEW0G98V5zOXyVBe74kH7qjhE4l23YSKfyL7z5437JUN1PhA=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "090500ea00d8e3c0d66e327d6db3cb9c4d05ff8d5cf035ca39788aeacc2d2554"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-arm64-gnu/-/chromatic-cli-linux-arm64-gnu-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-linux-x64-gnu",
+      "name": "ModRetro Chromatic CLI (linux-x64-gnu)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2791460d17ccb9c16b6d4f0072c01cd49104ea93cb6479ef697b05167a07e6a5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-unknown-linux-gnu"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "linux-x64-gnu/bin/chromatic-cli"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "14770920"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-linux-x64-gnu"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-GDTonk7gr4mW1OFi7nNP5DGQXuopApo9X8VapHtpm066N5B/KNZHacManIJRpcP0VvdRpDYocwMm8CiwkSkMRw=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "3da07f1e6c18a5f1f1f63254da85bc3dc0d8b329870b1bae49c315d5c9f2461f"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-x64-gnu/-/chromatic-cli-linux-x64-gnu-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-linux-x64-gnu@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-linux-x64-gnu",
+      "name": "THIRD_PARTY_NOTICES.txt (linux-x64-gnu)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b17f7e5af481f97ec642aad4ff9f221026758da28e88581ca671f604d69a334b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-unknown-linux-gnu"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "linux-x64-gnu/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1560648"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-linux-x64-gnu"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-GDTonk7gr4mW1OFi7nNP5DGQXuopApo9X8VapHtpm066N5B/KNZHacManIJRpcP0VvdRpDYocwMm8CiwkSkMRw=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "3da07f1e6c18a5f1f1f63254da85bc3dc0d8b329870b1bae49c315d5c9f2461f"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-x64-gnu/-/chromatic-cli-linux-x64-gnu-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-win32-arm64",
+      "name": "ModRetro Chromatic CLI (win32-arm64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7ad15877071b74d1099608e35bb0364607fcf4f0d9dafbcfdc53097e0dce5e56"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-pc-windows-msvc"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "win32-arm64/bin/chromatic-cli.exe"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "18366976"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-win32-arm64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-uT0ysu1hXus/o1psHJa4H8hlUS8kxWuGQM80YaOQH1RKb5yqdxxwEkdqY1G/iOJvJ6Xl6dutOc3C2Wfd8JgU7g=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "68b51d6ff978e3a288ec07b1da0a17676a028e60fab9fceadb517db79cc51c18"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-arm64/-/chromatic-cli-win32-arm64-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-win32-arm64@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-win32-arm64",
+      "name": "THIRD_PARTY_NOTICES.txt (win32-arm64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "318b0cb065a3c872662dcf43cb889b7fcd5518c0c2514bc5b69df2b95a179896"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "aarch64-pc-windows-msvc"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "win32-arm64/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1736104"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-win32-arm64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-uT0ysu1hXus/o1psHJa4H8hlUS8kxWuGQM80YaOQH1RKb5yqdxxwEkdqY1G/iOJvJ6Xl6dutOc3C2Wfd8JgU7g=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "68b51d6ff978e3a288ec07b1da0a17676a028e60fab9fceadb517db79cc51c18"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-arm64/-/chromatic-cli-win32-arm64-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "chromatic-cli-win32-x64",
+      "name": "ModRetro Chromatic CLI (win32-x64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eeddc76b11933d09564570dfc521d13251c6d4048d8190242fdd29e7fe81e51f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-pc-windows-msvc"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "win32-x64/bin/chromatic-cli.exe"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "18786816"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-win32-x64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-BPEFIoR4P+oeAU+RWPgWV6rv1PXgG/7xSccaUd7Ru/IzDhuyukC6cYoJ+aM65at+rSickrK4WYlOct4DTPexXw=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "a374e50e5efef79327b0fdf4aa903d388404b47e4b0aca612ad49906c8257458"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-x64/-/chromatic-cli-win32-x64-1.2.1.tgz"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; unchanged supplier binary; npm UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40modretro/chromatic-cli-win32-x64@1.2.1"
+    },
+    {
+      "type": "file",
+      "bom-ref": "chromatic-notices-win32-x64",
+      "name": "THIRD_PARTY_NOTICES.txt (win32-x64)",
+      "version": "1.2.1",
+      "supplier": {
+        "name": "ModRetro"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c767650bf16d087dd332f24394d7c3ec3a7f4c9bf13b281db69b7b6fdf1c125f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:target",
+          "value": "x86_64-pc-windows-msvc"
+        },
+        {
+          "name": "modretro:bundled-path",
+          "value": "win32-x64/THIRD_PARTY_NOTICES.txt"
+        },
+        {
+          "name": "modretro:bytes",
+          "value": "1736100"
+        },
+        {
+          "name": "modretro:npm-package",
+          "value": "@modretro/chromatic-cli-win32-x64"
+        },
+        {
+          "name": "modretro:npm-integrity",
+          "value": "sha512-BPEFIoR4P+oeAU+RWPgWV6rv1PXgG/7xSccaUd7Ru/IzDhuyukC6cYoJ+aM65at+rSickrK4WYlOct4DTPexXw=="
+        },
+        {
+          "name": "modretro:archive-sha256",
+          "value": "a374e50e5efef79327b0fdf4aa903d388404b47e4b0aca612ad49906c8257458"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-x64/-/chromatic-cli-win32-x64-1.2.1.tgz"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "embedded-gowin-installer",
+      "name": "GowinUSBCableDriverV5_for_win7+.exe",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; embedded supplier installer"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b026197755328aa043fc93b84a6f2afd57f6afbe9c8ae4b9106ad18f8aa085b9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:bytes",
+          "value": "5780655"
+        },
+        {
+          "name": "modretro:embedded-in",
+          "value": "win32-arm64,win32-x64"
+        },
+        {
+          "name": "modretro:verification",
+          "value": "Exact bytes unchanged in both 1.2.1 executables; not executed."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "embedded-binjgb",
+      "name": "Binjgb",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:supplier-distribution",
+          "value": "GB Studio 4.3.2 embedded emulator"
+        },
+        {
+          "name": "modretro:evidence",
+          "value": "Identified by supplier THIRD_PARTY_NOTICES.txt; not independently source-audited."
+        }
+      ]
+    },
+    {
+      "type": "firmware",
+      "bom-ref": "embedded-streaming-fpga",
+      "name": "Chromatic streaming FPGA image",
+      "version": "CHS1 v5",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary; all rights reserved; vendor IP retains original notices and terms"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d5a36a5b46e727c66167b670cb5bb0f5ee754e10f43c37480c0f7d5f9e8ad354"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:evidence",
+          "value": "Supplier-notice identity; not separately extracted or executed."
+        },
+        {
+          "name": "modretro:device-revision",
+          "value": "030B"
+        },
+        {
+          "name": "modretro:loading",
+          "value": "Volatile SRAM"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "windows-serialport",
+      "name": "serialport",
+      "version": "4.10.1",
+      "purl": "pkg:cargo/serialport@4.10.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/serialport/4.10.1/download"
+        }
+      ],
+      "properties": [
+        {
+          "name": "modretro:evidence",
+          "value": "Windows supplier notices identify the published unmodified crate and source availability."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external-VCRUNTIME140.dll",
+      "name": "VCRUNTIME140.dll",
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "modretro:availability",
+          "value": "Required Windows host prerequisite; not bundled or installed by this plugin. Host availability unverified."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external-Universal C Runtime",
+      "name": "Universal C Runtime",
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "modretro:availability",
+          "value": "Required Windows host prerequisite; not bundled or installed by this plugin. Host availability unverified."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external-Windows USB system libraries",
+      "name": "Windows USB system libraries",
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "modretro:availability",
+          "value": "Required Windows host prerequisite; not bundled or installed by this plugin. Host availability unverified."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external-hid.dll",
+      "name": "hid.dll",
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "modretro:availability",
+          "value": "Required Windows host prerequisite; not bundled or installed by this plugin. Host availability unverified."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external-oleaut32.dll",
+      "name": "oleaut32.dll",
+      "scope": "excluded",
+      "properties": [
+        {
+          "name": "modretro:availability",
+          "value": "Required Windows host prerequisite; not bundled or installed by this plugin. Host availability unverified."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "projectRoot": "examples/dogfood-signal-lost",
+  "descriptor": "examples/dogfood-signal-lost/project.gbsproj",
+  "outputRom": "examples/dogfood-signal-lost/build/signal-lost.gbc",
+  "playableRom": "examples/dogfood-signal-lost/build/signal-lost.gbc",
+  "toolNames": [
+    "project_discover",
+    "project_inspect",
+    "project_inventory",
+    "scene_create",
+    "scene_update",
+    "actor_create",
+    "dialogue_update",
+    "settings_update",
+    "graphics_analyze",
+    "rom_build",
+    "rom_inspect",
+    "toolchain_doctor",
+    "emulator_run",
+    "emulator_step",
+    "emulator_observe",
+    "emulator_status",
+    "emulator_close"
+  ],
+  "scenes": [
+    {
+      "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+      "name": "Moonmoss Cove",
+      "backgroundId": "019ff100-0000-4000-8000-000000000002",
+      "actors": [
+        {
+          "id": "019ff100-0000-4000-8000-000000000303",
+          "name": "East Signal Spark",
+          "x": 16,
+          "y": 12
+        },
+        {
+          "id": "019ff100-0000-4000-8000-000000000301",
+          "name": "Moss, the Lighthouse Keeper",
+          "x": 10,
+          "y": 10
+        },
+        {
+          "id": "019ff100-0000-4000-8000-000000000304",
+          "name": "Sleeping Beacon Relay",
+          "x": 10,
+          "y": 5
+        },
+        {
+          "id": "019ff100-0000-4000-8000-000000000302",
+          "name": "West Signal Spark",
+          "x": 4,
+          "y": 12
+        }
+      ]
+    },
+    {
+      "id": "019ff100-0000-4000-8000-000000000201",
+      "name": "Signal Lost / Title",
+      "backgroundId": "019ff100-0000-4000-8000-000000000001",
+      "actors": []
+    },
+    {
+      "id": "019ff100-0000-4000-8000-000000000203",
+      "name": "Starfall Beacon",
+      "backgroundId": "019ff100-0000-4000-8000-000000000003",
+      "actors": [
+        {
+          "id": "019ff100-0000-4000-8000-000000000305",
+          "name": "A Grateful Moon Moth",
+          "x": 10,
+          "y": 9
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "scenes": 3,
+    "actors": 5,
+    "triggers": 0,
+    "palettes": 8,
+    "assets": 10
+  },
+  "diagnostics": [],
+  "controls": "D-pad moves. A interacts or advances dialogue. START or A begins at the title.",
+  "objective": "Find the west and east signal sparks in Moonmoss Cove, then repair the sleeping beacon relay.",
+  "playerStart": {
+    "scene": "Moonmoss Cove",
+    "x": 10,
+    "y": 13
+  },
+  "questVariables": {
+    "westSpark": "0",
+    "eastSpark": "1",
+    "signalRestored": "2"
+  }
+}

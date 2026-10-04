@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 2,
+  "component": "ModRetro Chromatic CLI",
+  "version": "1.2.1",
+  "source": {
+    "kind": "npm-registry",
+    "registry": "https://registry.npmjs.org",
+    "supplier": "ModRetro",
+    "retrievedAt": "2026-09-18",
+    "packages": [
+      {
+        "name": "@modretro/chromatic-cli-darwin-arm64",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-arm64/-/chromatic-cli-darwin-arm64-1.2.1.tgz",
+        "bytes": 3464189,
+        "sha256": "017d4a4a58e5cf2e0a0c2fc580623b8708ad7be826a706f619f7fd9f665e8875",
+        "integrity": "sha512-y+rRE0ec5U+6sr2P0WXYsEoOWRfFsz/9V0Z1cNQtxQnQIgczaA2InwJ+Mhe9du6gn5yU2h2HL8gW9RiTTbYGgA==",
+        "shasum": "4efcefa0b559c411d4236985adda3c005c91a978",
+        "registryMetadataSha256": "3d216c5111eea1e5b8858c53bb162780e1f412978cb9f28dbcb8ef9ee9dbfe01",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli-darwin-x64",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-darwin-x64/-/chromatic-cli-darwin-x64-1.2.1.tgz",
+        "bytes": 3644855,
+        "sha256": "7f1dbbf31da9338cbe07f5f9a9acdfeaf7010a5c5a7f1feb19366d55f801620c",
+        "integrity": "sha512-WRg7eWNDwhHy+p8zwJYCU4voibqbOcV6vHPCsmoo5x3aJV2i4GZqQ3OV6gxOrjgUkdVQSwps6//5wYD+7UlqDg==",
+        "shasum": "0ed16a74a4b5546603828fcc5704bd2dad26492a",
+        "registryMetadataSha256": "28143585090068d3ae6a27ac0d7874b12bacd3ae9ab71807d6ee8902af6e1b7e",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli-linux-arm64-gnu",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-arm64-gnu/-/chromatic-cli-linux-arm64-gnu-1.2.1.tgz",
+        "bytes": 3571409,
+        "sha256": "090500ea00d8e3c0d66e327d6db3cb9c4d05ff8d5cf035ca39788aeacc2d2554",
+        "integrity": "sha512-b8ot2h124GDol1ivnpjHFo/B0tXppJdvKJEfAonEW0G98V5zOXyVBe74kH7qjhE4l23YSKfyL7z5437JUN1PhA==",
+        "shasum": "f70337bb91041c20764b6ea36e9242639fb02d96",
+        "registryMetadataSha256": "6f06e3e0ec80f6fe6efc9826a765d6f5bb65f0710ee055a2c4dc845c4119377d",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli-linux-x64-gnu",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-linux-x64-gnu/-/chromatic-cli-linux-x64-gnu-1.2.1.tgz",
+        "bytes": 3773213,
+        "sha256": "3da07f1e6c18a5f1f1f63254da85bc3dc0d8b329870b1bae49c315d5c9f2461f",
+        "integrity": "sha512-GDTonk7gr4mW1OFi7nNP5DGQXuopApo9X8VapHtpm066N5B/KNZHacManIJRpcP0VvdRpDYocwMm8CiwkSkMRw==",
+        "shasum": "c56061c43c57d7244d74d5f3f578a7d9323b3816",
+        "registryMetadataSha256": "1d511bd873a81ff54eaa58713bac3fe5079725ead012a5a9951fe6072ffe14b2",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli-win32-arm64",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-arm64/-/chromatic-cli-win32-arm64-1.2.1.tgz",
+        "bytes": 9108920,
+        "sha256": "68b51d6ff978e3a288ec07b1da0a17676a028e60fab9fceadb517db79cc51c18",
+        "integrity": "sha512-uT0ysu1hXus/o1psHJa4H8hlUS8kxWuGQM80YaOQH1RKb5yqdxxwEkdqY1G/iOJvJ6Xl6dutOc3C2Wfd8JgU7g==",
+        "shasum": "cf7eb50712b4adaa19b80054a1a8e4b47c558bc0",
+        "registryMetadataSha256": "bcbdffc6a414dd12a2e30099899091dc9bd455309b83d14f300839b8ff6aa12a",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli-win32-x64",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli-win32-x64/-/chromatic-cli-win32-x64-1.2.1.tgz",
+        "bytes": 9120090,
+        "sha256": "a374e50e5efef79327b0fdf4aa903d388404b47e4b0aca612ad49906c8257458",
+        "integrity": "sha512-BPEFIoR4P+oeAU+RWPgWV6rv1PXgG/7xSccaUd7Ru/IzDhuyukC6cYoJ+aM65at+rSickrK4WYlOct4DTPexXw==",
+        "shasum": "685aa2bd6b18b795c43e07c7c0af909a74de37c4",
+        "registryMetadataSha256": "3f98efcf5234fc63576a2c43d662fe2d254ae2b838077d38f46913c1a9c04648",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      },
+      {
+        "name": "@modretro/chromatic-cli",
+        "version": "1.2.1",
+        "url": "https://registry.npmjs.org/@modretro/chromatic-cli/-/chromatic-cli-1.2.1.tgz",
+        "bytes": 1889,
+        "sha256": "da788c8e1428878a728f63bf2d504d54639a8412e0bb8c31dd13ca4082f04352",
+        "integrity": "sha512-Lxk7/93OKgH7EciZeITdwreaTpDTxwiVpwQq5/oKsYrisFUG0u79wNCUuvpO7nscZD04LvUPWMe9xevVJQM0nA==",
+        "shasum": "e45a92277443d0e15fe59415c4c4903c1d50fc78",
+        "registryMetadataSha256": "dce734009187d7a5948ed776dcd44388b9c2fa1de7523a771a6a3f0bae0b958d",
+        "integrityVerified": true,
+        "license": "UNLICENSED"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "darwin-arm64/bin/chromatic-cli",
+      "target": "aarch64-apple-darwin",
+      "kind": "executable",
+      "bytes": 12997184,
+      "sha256": "37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70",
+      "mode": "0755",
+      "package": "@modretro/chromatic-cli-darwin-arm64",
+      "version": "1.2.1",
+      "archiveSha256": "017d4a4a58e5cf2e0a0c2fc580623b8708ad7be826a706f619f7fd9f665e8875",
+      "archiveIntegrity": "sha512-y+rRE0ec5U+6sr2P0WXYsEoOWRfFsz/9V0Z1cNQtxQnQIgczaA2InwJ+Mhe9du6gn5yU2h2HL8gW9RiTTbYGgA=="
+    },
+    {
+      "path": "darwin-arm64/THIRD_PARTY_NOTICES.txt",
+      "target": "aarch64-apple-darwin",
+      "kind": "notice",
+      "bytes": 1596953,
+      "sha256": "b3b23000848c1b98e87730b536a9a029ecb17e2ce0d77d8a7e8c19226d571aa7",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-darwin-arm64",
+      "version": "1.2.1",
+      "archiveSha256": "017d4a4a58e5cf2e0a0c2fc580623b8708ad7be826a706f619f7fd9f665e8875",
+      "archiveIntegrity": "sha512-y+rRE0ec5U+6sr2P0WXYsEoOWRfFsz/9V0Z1cNQtxQnQIgczaA2InwJ+Mhe9du6gn5yU2h2HL8gW9RiTTbYGgA=="
+    },
+    {
+      "path": "darwin-x64/bin/chromatic-cli",
+      "target": "x86_64-apple-darwin",
+      "kind": "executable",
+      "bytes": 14260892,
+      "sha256": "4b09e5c0ec0ac0837f1419548aa4a87b8638870a6213b8c9c39b50ac5c8ad0d1",
+      "mode": "0755",
+      "package": "@modretro/chromatic-cli-darwin-x64",
+      "version": "1.2.1",
+      "archiveSha256": "7f1dbbf31da9338cbe07f5f9a9acdfeaf7010a5c5a7f1feb19366d55f801620c",
+      "archiveIntegrity": "sha512-WRg7eWNDwhHy+p8zwJYCU4voibqbOcV6vHPCsmoo5x3aJV2i4GZqQ3OV6gxOrjgUkdVQSwps6//5wYD+7UlqDg=="
+    },
+    {
+      "path": "darwin-x64/THIRD_PARTY_NOTICES.txt",
+      "target": "x86_64-apple-darwin",
+      "kind": "notice",
+      "bytes": 1596952,
+      "sha256": "39a847c252406ece8d979455ce1ee061e0bab80357107b25003c01b78db2ab11",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-darwin-x64",
+      "version": "1.2.1",
+      "archiveSha256": "7f1dbbf31da9338cbe07f5f9a9acdfeaf7010a5c5a7f1feb19366d55f801620c",
+      "archiveIntegrity": "sha512-WRg7eWNDwhHy+p8zwJYCU4voibqbOcV6vHPCsmoo5x3aJV2i4GZqQ3OV6gxOrjgUkdVQSwps6//5wYD+7UlqDg=="
+    },
+    {
+      "path": "linux-arm64-gnu/bin/chromatic-cli",
+      "target": "aarch64-unknown-linux-gnu",
+      "kind": "executable",
+      "bytes": 13374504,
+      "sha256": "5b5921c0847d965ba9875a5d3db03784193c1a7c377f60bdaa68ccdbfee0958e",
+      "mode": "0755",
+      "package": "@modretro/chromatic-cli-linux-arm64-gnu",
+      "version": "1.2.1",
+      "archiveSha256": "090500ea00d8e3c0d66e327d6db3cb9c4d05ff8d5cf035ca39788aeacc2d2554",
+      "archiveIntegrity": "sha512-b8ot2h124GDol1ivnpjHFo/B0tXppJdvKJEfAonEW0G98V5zOXyVBe74kH7qjhE4l23YSKfyL7z5437JUN1PhA=="
+    },
+    {
+      "path": "linux-arm64-gnu/THIRD_PARTY_NOTICES.txt",
+      "target": "aarch64-unknown-linux-gnu",
+      "kind": "notice",
+      "bytes": 1560649,
+      "sha256": "3e31321f07fabffd543e4fdea00c1efdbaf8fe09ae39a14fded8e91d88d4a7f1",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-linux-arm64-gnu",
+      "version": "1.2.1",
+      "archiveSha256": "090500ea00d8e3c0d66e327d6db3cb9c4d05ff8d5cf035ca39788aeacc2d2554",
+      "archiveIntegrity": "sha512-b8ot2h124GDol1ivnpjHFo/B0tXppJdvKJEfAonEW0G98V5zOXyVBe74kH7qjhE4l23YSKfyL7z5437JUN1PhA=="
+    },
+    {
+      "path": "linux-x64-gnu/bin/chromatic-cli",
+      "target": "x86_64-unknown-linux-gnu",
+      "kind": "executable",
+      "bytes": 14770920,
+      "sha256": "2791460d17ccb9c16b6d4f0072c01cd49104ea93cb6479ef697b05167a07e6a5",
+      "mode": "0755",
+      "package": "@modretro/chromatic-cli-linux-x64-gnu",
+      "version": "1.2.1",
+      "archiveSha256": "3da07f1e6c18a5f1f1f63254da85bc3dc0d8b329870b1bae49c315d5c9f2461f",
+      "archiveIntegrity": "sha512-GDTonk7gr4mW1OFi7nNP5DGQXuopApo9X8VapHtpm066N5B/KNZHacManIJRpcP0VvdRpDYocwMm8CiwkSkMRw=="
+    },
+    {
+      "path": "linux-x64-gnu/THIRD_PARTY_NOTICES.txt",
+      "target": "x86_64-unknown-linux-gnu",
+      "kind": "notice",
+      "bytes": 1560648,
+      "sha256": "b17f7e5af481f97ec642aad4ff9f221026758da28e88581ca671f604d69a334b",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-linux-x64-gnu",
+      "version": "1.2.1",
+      "archiveSha256": "3da07f1e6c18a5f1f1f63254da85bc3dc0d8b329870b1bae49c315d5c9f2461f",
+      "archiveIntegrity": "sha512-GDTonk7gr4mW1OFi7nNP5DGQXuopApo9X8VapHtpm066N5B/KNZHacManIJRpcP0VvdRpDYocwMm8CiwkSkMRw=="
+    },
+    {
+      "path": "win32-arm64/bin/chromatic-cli.exe",
+      "target": "aarch64-pc-windows-msvc",
+      "kind": "executable",
+      "bytes": 18366976,
+      "sha256": "7ad15877071b74d1099608e35bb0364607fcf4f0d9dafbcfdc53097e0dce5e56",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-win32-arm64",
+      "version": "1.2.1",
+      "archiveSha256": "68b51d6ff978e3a288ec07b1da0a17676a028e60fab9fceadb517db79cc51c18",
+      "archiveIntegrity": "sha512-uT0ysu1hXus/o1psHJa4H8hlUS8kxWuGQM80YaOQH1RKb5yqdxxwEkdqY1G/iOJvJ6Xl6dutOc3C2Wfd8JgU7g=="
+    },
+    {
+      "path": "win32-arm64/THIRD_PARTY_NOTICES.txt",
+      "target": "aarch64-pc-windows-msvc",
+      "kind": "notice",
+      "bytes": 1736104,
+      "sha256": "318b0cb065a3c872662dcf43cb889b7fcd5518c0c2514bc5b69df2b95a179896",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-win32-arm64",
+      "version": "1.2.1",
+      "archiveSha256": "68b51d6ff978e3a288ec07b1da0a17676a028e60fab9fceadb517db79cc51c18",
+      "archiveIntegrity": "sha512-uT0ysu1hXus/o1psHJa4H8hlUS8kxWuGQM80YaOQH1RKb5yqdxxwEkdqY1G/iOJvJ6Xl6dutOc3C2Wfd8JgU7g=="
+    },
+    {
+      "path": "win32-x64/bin/chromatic-cli.exe",
+      "target": "x86_64-pc-windows-msvc",
+      "kind": "executable",
+      "bytes": 18786816,
+      "sha256": "eeddc76b11933d09564570dfc521d13251c6d4048d8190242fdd29e7fe81e51f",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-win32-x64",
+      "version": "1.2.1",
+      "archiveSha256": "a374e50e5efef79327b0fdf4aa903d388404b47e4b0aca612ad49906c8257458",
+      "archiveIntegrity": "sha512-BPEFIoR4P+oeAU+RWPgWV6rv1PXgG/7xSccaUd7Ru/IzDhuyukC6cYoJ+aM65at+rSickrK4WYlOct4DTPexXw=="
+    },
+    {
+      "path": "win32-x64/THIRD_PARTY_NOTICES.txt",
+      "target": "x86_64-pc-windows-msvc",
+      "kind": "notice",
+      "bytes": 1736100,
+      "sha256": "c767650bf16d087dd332f24394d7c3ec3a7f4c9bf13b281db69b7b6fdf1c125f",
+      "mode": "0644",
+      "package": "@modretro/chromatic-cli-win32-x64",
+      "version": "1.2.1",
+      "archiveSha256": "a374e50e5efef79327b0fdf4aa903d388404b47e4b0aca612ad49906c8257458",
+      "archiveIntegrity": "sha512-BPEFIoR4P+oeAU+RWPgWV6rv1PXgG/7xSccaUd7Ru/IzDhuyukC6cYoJ+aM65at+rSickrK4WYlOct4DTPexXw=="
+    }
+  ],
+  "license": "Proprietary; unchanged closed-source supplier binaries. npm packages declare UNLICENSED.",
+  "permission": {
+    "recordId": "modretro-chromatic-binary-embedding-2026-09-16",
+    "grantor": "ModRetro",
+    "recipient": "OpenAI official ModRetro Chromatic Plugin for Codex",
+    "scope": "Embed and redistribute unchanged closed-source binaries in the official plugin. No source access, relicensing, modification or undocumented protocol authority.",
+    "date": "2026-09-16"
+  },
+  "thirdPartyNotices": {
+    "scope": "Each target retains its complete unchanged supplier notice file. Identified third-party terms do not license the proprietary application source.",
+    "paths": [
+      "darwin-arm64/THIRD_PARTY_NOTICES.txt",
+      "darwin-x64/THIRD_PARTY_NOTICES.txt",
+      "linux-arm64-gnu/THIRD_PARTY_NOTICES.txt",
+      "linux-x64-gnu/THIRD_PARTY_NOTICES.txt",
+      "win32-arm64/THIRD_PARTY_NOTICES.txt",
+      "win32-x64/THIRD_PARTY_NOTICES.txt"
+    ]
+  },
+  "platformRequirements": {
+    "macos": "Native header minimums: arm64 macOS 11.0, x64 macOS 10.12. These are not full-plugin qualification claims.",
+    "linux": "glibc 2.39 or newer; GNU targets only; libgcc_s.so.1 and libc.so.6.",
+    "windows": "VCRUNTIME140.dll, Universal C Runtime and Windows system libraries; hid.dll and oleaut32.dll are new imports relative to 1.1.0. These host libraries are not bundled by this plugin."
+  },
+  "windowsDriverInstaller": {
+    "name": "GowinUSBCableDriverV5_for_win7+.exe",
+    "bytes": 5780655,
+    "sha256": "b026197755328aa043fc93b84a6f2afd57f6afbe9c8ae4b9106ad18f8aa085b9",
+    "embeddedIn": [
+      "win32-arm64",
+      "win32-x64"
+    ],
+    "signature": "No Authenticode table observed; requires separate administrator authorization",
+    "verification": "The exact existing installer byte sequence was found unchanged in both 1.2.1 Windows executables; it was not executed."
+  },
+  "streamingImage": {
+    "name": "Chromatic streaming FPGA image",
+    "version": "CHS1 v5",
+    "deviceRevision": "030B",
+    "sha256": "d5a36a5b46e727c66167b670cb5bb0f5ee754e10f43c37480c0f7d5f9e8ad354",
+    "sourceRepository": "https://github.com/ModRetro/chromatic-reverse-streaming",
+    "sourceRevision": "0aa79c66357b041c1fed5e737b807e91817a238f",
+    "sourcePath": "fpga/impl/pnr/chromatic_sink_demo.fs",
+    "license": "Proprietary; all rights reserved; vendor IP retains its original notices and terms.",
+    "loading": "Volatile SRAM, according to supplier notice.",
+    "evidenceScope": "Supplier-provided notice; image not separately extracted or executed during acquisition."
+  },
+  "verification": {
+    "archives": "Every archive matched registry SHA-512 integrity and SHA-1 shasum.",
+    "registrySignatures": "Retained by acquisition, not independently signature-verified.",
+    "executed": "Only Darwin arm64 --version/--help and subcommand --help.",
+    "hardwareTested": false
+  },
+  "modified": false
+}

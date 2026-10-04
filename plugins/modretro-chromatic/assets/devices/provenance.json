@@ -1,0 +1,57 @@
+{
+  "source": "https://play.openai.chatgpt.site/",
+  "retrieved": "2026-09-21",
+  "files": [
+    {
+      "file": "chromatic-codex.webp",
+      "sha256": "fc485392a920aee5b546aca91b92fcf6cef1f87ac389171f9f5510ed978670c0",
+      "source": "Generated from user-provided Codex-edition device photos and chromatic-cloud.png",
+      "generator": "Built-in image_gen",
+      "prompt": "codex-generation.md",
+      "sourceSha256": "58500555029e4e5c7fb76912712de6937602e792071ba366c3395e9fce4bb25e"
+    },
+    {
+      "file": "chromatic-bubblegum.webp",
+      "sha256": "ac3ccc1a73bcb80f54bebcb8faa8d83c8e703f47b621c37e2c0a8a49f4758873",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-bubblegum.png",
+      "sourceSha256": "531aad7af3fa44be874d96950f5e510174f03a4dd1e7aba873369ddb908e0c01"
+    },
+    {
+      "file": "chromatic-cloud.webp",
+      "sha256": "e4a9080466a23208e019007b2ffe516ffa7a42cdc1ac92d78d0904d5edabf7dd",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-cloud.png",
+      "sourceSha256": "60468edfcc6c103cc2db418320ffca8a5f837d40be99e87f91f981cae5385922"
+    },
+    {
+      "file": "chromatic-inferno.webp",
+      "sha256": "3607a9393e0dcf57ed3775639ed6aad1ca5298d085e1234963169ff52f0b5aab",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-inferno.png",
+      "sourceSha256": "3afc9d01e802681f5e08d57abbae5522bec96d4215aff8252af203973d44fd5a"
+    },
+    {
+      "file": "chromatic-leaf.webp",
+      "sha256": "0ac4e6bf8f0e6d4006f84c446daf72ba3b25f3d1e55fbe5b342686c490e1b50b",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-leaf.png",
+      "sourceSha256": "65d2f3336c595210679c5057e80413b42871d8dc1b33e0f6cdc9ffba5b8bb877"
+    },
+    {
+      "file": "chromatic-midnight.webp",
+      "sha256": "32d6e4e4af68baa5de7de76dd11fcf340a48a6be37ad985c6a9586a1228bc03d",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-midnight.png",
+      "sourceSha256": "39718d2a5f4def88b2f8beb4e0b8a256a163d8a8acb11e203d0693df8af69f4e"
+    },
+    {
+      "file": "chromatic-volt.webp",
+      "sha256": "ae2223bb23fc32b1f53a55b54ed80c437301cd62d79590686341c8752529971b",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-volt.png",
+      "sourceSha256": "9e17a64f92f9b9bcd09dbe330f09dfddb87bcbdb291a8e71632d3cc69fb5236e"
+    },
+    {
+      "file": "chromatic-wave.webp",
+      "sha256": "572803bae96f0d73a2585b92040730d355af797f342e8768766a167e5fbba8c4",
+      "source": "https://play.openai.chatgpt.site/assets/chromatic-wave.png",
+      "sourceSha256": "11a2222c5f3eee04557571c112c60b95a17582b1d7714afb46e4960f83815b2a"
+    }
+  ],
+  "encoding": "cwebp 1.6.0 -q 90 -m 6 -sharp_yuv -alpha_q 100 -metadata icc; original dimensions"
+}

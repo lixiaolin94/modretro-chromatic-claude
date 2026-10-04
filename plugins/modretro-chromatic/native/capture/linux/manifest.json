@@ -1,0 +1,13 @@
+{
+  "protocolVersion": 1,
+  "architectures": {
+    "arm64": {
+      "file": "arm64/ffmpeg",
+      "sha256": "3003aebb5eb074dc1f7b7a98a6e19e35cd88f797e33ce947fada74ed5c560f78"
+    },
+    "x64": {
+      "file": "x64/ffmpeg",
+      "sha256": "ac9ba3c56281b8759c5ba16590a6bcb769bc8c0986b2ca91cad8bc2d8306204b"
+    }
+  }
+}

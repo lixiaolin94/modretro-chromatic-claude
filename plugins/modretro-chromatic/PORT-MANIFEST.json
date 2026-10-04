@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "name": "modretro-chromatic",
+    "version": "1.0.33+codex.distribution.66e8961d3ce30093ea3c9ee4",
+    "repository": "https://github.com/OpenAI-Partners/ModRetro-Chromatic-Plugin-for-Codex",
+    "archiveSha256": "9da9cadfc086125fbed2588cc6af8723c073bb8232a5d765873933e2410ac467"
+  },
+  "generatedAt": "2026-10-04T15:22:51.497Z",
+  "skills": {
+    "modretro-chromatic-authoring": "authoring",
+    "modretro-chromatic-pixel-art": "pixel-art",
+    "modretro-chromatic-rom-debugging": "rom-debugging",
+    "chromatic-deployment": "deployment",
+    "modretro-chromatic-setup": "setup"
+  },
+  "removed": [
+    "assets/devices/images.br",
+    "native/capture/linux/arm64/ffmpeg",
+    "native/capture/linux/x64/ffmpeg",
+    "third-party/chromatic-cli/executables-v2.br",
+    "third-party/chromatic-cli/notices.br"
+  ],
+  "patches": [
+    {
+      "label": "runtime",
+      "rule": "Ask Codex to enable local device access",
+      "matches": 2
+    },
+    {
+      "label": "runtime",
+      "rule": "Codex can open that settings tab for you.",
+      "matches": 3
+    },
+    {
+      "label": "runtime",
+      "rule": "ask Codex to inspect the recording status.",
+      "matches": 2
+    },
+    {
+      "label": "runtime",
+      "rule": "ask Codex for help",
+      "matches": 2
+    },
+    {
+      "label": "runtime",
+      "rule": "ask Codex to check the capture setup",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Ask Codex to check the plugin setup.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Ask Codex to recover it.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Send the annotation to ask Codex about this view.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "share this view with Codex.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "use web_preview to show a successful playable build early in Codex's built-in browser.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Device feeds also belong only in Codex's built-in browser.",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Open the selected project's official player only in Codex's built-in browser. If unavailable, locked",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "Open the selected project's physical Chromatic feed only in Codex's built-in browser; if unavailable",
+      "matches": 1
+    },
+    {
+      "label": "runtime",
+      "rule": "/Codex's built-in browser/g",
+      "matches": 0
+    },
+    {
+      "label": "guides",
+      "rule": "Open every `web_preview` or `device_capture` URL, including screenshot Open links, only in **Codex's",
+      "matches": 3
+    },
+    {
+      "label": "guides",
+      "rule": "only in **Codex's built-in browser**",
+      "matches": 0
+    },
+    {
+      "label": "guides",
+      "rule": "Codex's built-in browser",
+      "matches": 3
+    },
+    {
+      "label": "guides",
+      "rule": "In a supporting Codex/ChatGPT browser,",
+      "matches": 1
+    },
+    {
+      "label": "guides",
+      "rule": "Codex provides the server namespace.",
+      "matches": 1
+    },
+    {
+      "label": "guides",
+      "rule": "Codex plugin/MCP tools",
+      "matches": 1
+    },
+    {
+      "label": "guides",
+      "rule": "built-in Image Generation",
+      "matches": 2
+    },
+    {
+      "label": "guides",
+      "rule": "Image Generation",
+      "matches": 8
+    },
+    {
+      "label": "guides",
+      "rule": "/(?<![-/.\\w])Codex(?![-/\\w]|\\.\\w)/g",
+      "matches": 16
+    }
+  ]
+}

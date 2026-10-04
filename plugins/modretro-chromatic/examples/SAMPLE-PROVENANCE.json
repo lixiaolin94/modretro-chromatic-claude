@@ -1,0 +1,119 @@
+{
+  "schema": "modretro-chromatic-sample-provenance/v1",
+  "scope": "Original sample presentation and story assets. Native schema, compiler/runtime components and licenses retain their actual upstream identities.",
+  "authoredOn": "2026-09-24",
+  "sourceCells": {
+    "path": "examples/original-art/native-cells.json",
+    "sha256": "854e238f42839764f10bc6046af26336c66db0c241f4c869e15f209ca52abfa1"
+  },
+  "sourceRecipes": {
+    "path": "examples/original-art/recipes.mjs",
+    "sha256": "94c792a276434db59f02e30c4d967e673600e2343fba75f3858f31fd18aa1ca3"
+  },
+  "newAssets": [
+    {
+      "path": "examples/starter/assets/backgrounds/workshop.png",
+      "sha256": "62b4c3e9d7a3aefad8c1eb8f91e0c24ab2e148e4526845dc2810ad00a805ef21",
+      "bytes": 1947
+    },
+    {
+      "path": "examples/starter/assets/sprites/workshop_player.png",
+      "sha256": "51c5a0374686531ae8e35ebeb4dc63f5c0b0f666e6d6abcdb5b8e52776e8766b",
+      "bytes": 695
+    },
+    {
+      "path": "examples/starter/assets/fonts/bench-mono.png",
+      "sha256": "5ef84106e16f70e7843ccaea5ee6b1a6b96e6c833067fa11c8c596431e0c8c7d",
+      "bytes": 6047
+    },
+    {
+      "path": "examples/starter/assets/ui/frame.png",
+      "sha256": "cdebcc3e1a3a6827db29d6cd74a19d785980a5bef18a87589f8eb878457e311c",
+      "bytes": 199
+    },
+    {
+      "path": "examples/starter/assets/ui/cursor.png",
+      "sha256": "a1cd08f8a5dc8a0a19c74f9fc36ef3d1e77c25be0746c9de0dc4c7dc5d044b5f",
+      "bytes": 142
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/fonts/bench-mono.png",
+      "sha256": "5ef84106e16f70e7843ccaea5ee6b1a6b96e6c833067fa11c8c596431e0c8c7d",
+      "bytes": 6047
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/ui/frame.png",
+      "sha256": "cdebcc3e1a3a6827db29d6cd74a19d785980a5bef18a87589f8eb878457e311c",
+      "bytes": 199
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/ui/cursor.png",
+      "sha256": "a1cd08f8a5dc8a0a19c74f9fc36ef3d1e77c25be0746c9de0dc4c7dc5d044b5f",
+      "bytes": 142
+    }
+  ],
+  "preservedSignalLostImages": [
+    {
+      "path": "examples/dogfood-signal-lost/assets/backgrounds/title.png",
+      "sha256": "b29c48503bfbafaae94b05b0568dd7c97046871b9a5a503878dab66cb6f2a20c",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/backgrounds/cove.png",
+      "sha256": "bb88feeb9fc9585a539e35c77720b61f023bf537105c94a83777ee97eb8b2b82",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/backgrounds/beacon.png",
+      "sha256": "64cb2cfa62a3e62c82f697c83e491c72e5b8ac83dc7ed2a8ade94347c3f2a53d",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/sprites/player.png",
+      "sha256": "a42b4eac09560a57820ebe87c1b731ed096dcd53431dab30a0040a469cc1988e",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/sprites/keeper.png",
+      "sha256": "aac02fbba9587f80a518e31e23df1f5d74c6a64c2edd72e16ae48facd89620d0",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/sprites/spark.png",
+      "sha256": "da2a522d648ccb5968b01a4734457e656cc7e0ef8d95d57163f7ec83ad7e7147",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    },
+    {
+      "path": "examples/dogfood-signal-lost/assets/sprites/relay.png",
+      "sha256": "6a4c6703eed8b55614c936b391eb45594212164a76304adbb9bcc6e6918019c3",
+      "reason": "Proven original Signal Lost image; no write/delete operation"
+    }
+  ],
+  "sourceAttribution": {
+    "newArtwork": "Room, player, dialogue frame/cursor, and remaining font glyphs were authored as explicit cell rows for this release; no upstream bitmap pixels were sampled.",
+    "originalTitleGlyphs": {
+      "repositoryPath": "scripts/dogfood-assets.mjs",
+      "commit": "5929961b938260ad112b87fc57145b7b23c7a196",
+      "glyphs": "AEGILNOPRST"
+    },
+    "helloColor": {
+      "source": "examples/hello-color/main.c",
+      "cartridge": "examples/hello-color/hello-color.gbc",
+      "cartridgeSha256": "38da4ad04ae6a0fc75c536e0672bc1176b16194953167b629d6e115f742b89fa",
+      "method": "Original standalone C example compiled with GBDK 4.5.0; linked runtime retains its applicable license."
+    }
+  },
+  "fontCoverage": {
+    "printableAscii": [
+      32,
+      126
+    ],
+    "lowercase": "caps glyph alias",
+    "codepoints127to255": "question-mark fallback"
+  },
+  "excludedNativeCartridges": [
+    "examples/starter/codex-starter.gbc",
+    "examples/dogfood-signal-lost/signal-lost.gbc"
+  ],
+  "qualification": "Native assets and references are statically checked. Build the editable native samples with the separately installed compiler; no prebuilt native sample cartridge or gameplay qualification is included."
+}

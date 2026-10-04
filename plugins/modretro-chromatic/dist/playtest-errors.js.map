@@ -1,0 +1,1 @@
+{"version":3,"file":"playtest-errors.js","sourceRoot":"","sources":["../src/playtest-errors.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,aAAc,SAAQ,KAAK;IACjB;IAAwC;IAA7D,YAAqB,IAAY,EAAE,OAAe,EAAW,aAAsB,EAAE,OAAsB;QACzG,KAAK,CAAC,OAAO,EAAE,OAAO,CAAC,CAAC;QADL,SAAI,GAAJ,IAAI,CAAQ;QAA4B,kBAAa,GAAb,aAAa,CAAS;QAEjF,IAAI,CAAC,IAAI,GAAG,eAAe,CAAC;IAC9B,CAAC;CACF"}

@@ -1,0 +1,18 @@
+{
+  "_resourceType": "palette",
+  "id": "default-bg-5",
+  "name": "Default BG 5",
+  "colors": [
+    "F5EDDA",
+    "A8B7F2",
+    "59638F",
+    "181830"
+  ],
+  "defaultName": "Default BG 5",
+  "defaultColors": [
+    "F5EDDA",
+    "A8B7F2",
+    "59638F",
+    "181830"
+  ]
+}

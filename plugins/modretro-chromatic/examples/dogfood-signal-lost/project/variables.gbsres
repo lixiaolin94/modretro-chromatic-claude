@@ -1,0 +1,21 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "West Signal Spark",
+      "symbol": "var_west_signal_spark"
+    },
+    {
+      "id": "1",
+      "name": "East Signal Spark",
+      "symbol": "var_east_signal_spark"
+    },
+    {
+      "id": "2",
+      "name": "Signal Restored",
+      "symbol": "var_signal_restored"
+    }
+  ],
+  "constants": []
+}

@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "019ff100-0000-4000-8000-000000000301",
+  "_index": 0,
+  "symbol": "actor_moss_the_lighthouse_keeper",
+  "prefabId": "",
+  "name": "Moss, the Lighthouse Keeper",
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 10,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "019ff100-0000-4000-8000-000000000102",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "0c3ab744-36d6-4926-81a6-b4a0c787c04d",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "98636aae-bd05-4227-810a-c3f7ac0cf00d",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "__collapseElse": false,
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "8a93d92a-af04-4738-8921-61db982401cc",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Both sparks glow\nWake the relay.",
+                    "avatarId": ""
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "ce57a1e4-3911-489a-81f9-754d1afd1803",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "One spark found\nSeek its twin.",
+                    "avatarId": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "e66d18de-feba-45ad-82c1-da1e9c4af57e",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The beacon lost\nits song at dusk",
+                "Find TWO SPARKS.\nThen wake relay."
+              ],
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

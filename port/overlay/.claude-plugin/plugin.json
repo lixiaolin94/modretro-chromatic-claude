@@ -1,0 +1,21 @@
+{
+  "name": "modretro-chromatic",
+  "displayName": "ModRetro Chromatic",
+  "version": "1.0.33-claude.1",
+  "description": "Create, build, and playtest Game Boy and Game Boy Color games with GB Studio; stream demos to or flash cartridges for a ModRetro Chromatic. Community port of the MIT-licensed ModRetro Chromatic Plugin for Codex.",
+  "author": {
+    "name": "Community port for Claude Code"
+  },
+  "homepage": "https://modretro.com/",
+  "license": "MIT",
+  "keywords": [
+    "modretro",
+    "chromatic",
+    "game-boy",
+    "game-boy-color",
+    "gb-studio",
+    "pixel-art",
+    "game-development",
+    "mcp"
+  ]
+}

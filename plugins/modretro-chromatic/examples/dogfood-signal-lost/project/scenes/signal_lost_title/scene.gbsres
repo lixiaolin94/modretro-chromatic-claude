@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "019ff100-0000-4000-8000-000000000201",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Signal Lost / Title",
+  "symbol": "scene_signal_lost_title",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "019ff100-0000-4000-8000-000000000001",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "ce04deec-c687-4836-81aa-4f36003931e5",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "a4e8b959-9cd1-4337-8284-e38cf459ecd3",
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "start"
+        ]
+      }
+    },
+    {
+      "id": "006ae7d2-9da2-4b73-868b-84918c18f03b",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

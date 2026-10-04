@@ -1,0 +1,108 @@
+{
+  "_resourceType": "actor",
+  "id": "019ff100-0000-4000-8000-000000000303",
+  "_index": 2,
+  "symbol": "actor_east_signal_spark",
+  "prefabId": "",
+  "name": "East Signal Spark",
+  "coordinateType": "tiles",
+  "x": 16,
+  "y": 12,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "019ff100-0000-4000-8000-000000000103",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "3c337196-6461-4464-8223-110c1fbaf523",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "9154f926-6434-432e-8308-053a29e661b6",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Warm starlight\nlingers here.",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "7258be8b-0e8b-42fc-8c59-bbaf96c04e9a",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "EAST SPARK FOUND\nIt warms your\nlittle mitten.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "914e5f7f-69c0-422f-8ed3-b2353b70a8d5",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "id": "f2fe736d-42bf-4826-8af2-c53aac88d1a9",
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "19f1edf0-72af-49d4-832e-8972106ba2da",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "93192f28-740c-40d7-8489-176151bf28eb",
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

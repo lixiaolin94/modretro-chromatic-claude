@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "019ff100-0000-4000-8000-000000000203",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Starfall Beacon",
+  "symbol": "scene_starfall_beacon",
+  "x": 480,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "019ff100-0000-4000-8000-000000000003",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3a102da8-1e8d-48e9-84d1-4f606f89606d",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "SIGNAL FOUND\nStars hear us!",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "82d38fd1-5fe1-476e-82ba-ae686ae6b720",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Far, far away,\na light answers.\nTHANK YOU!",
+        "avatarId": ""
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

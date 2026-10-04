@@ -1,0 +1,1 @@
+{"version":3,"file":"projectile-spawn-contact.js","sourceRoot":"","sources":["../../../src/wrecklight/profiles/projectile-spawn-contact.ts"],"names":[],"mappings":"AAAA,4EAA4E;AAC5E,uFAAuF;AACvF,MAAM,CAAC,MAAM,iDAAiD,GAAG;IAC/D,YAAY,EAAE;QACZ;YACE,IAAI,EAAE,mEAAmE;YACzE,KAAK,EAAE,KAAK;YACZ,MAAM,EAAE,kEAAkE;SAC3E;KACF;CACO,CAAC"}

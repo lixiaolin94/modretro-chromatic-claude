@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Codex Game Development"
+  },
+  "description": "Create, build, and playtest Game Boy and Game Boy Color games; stream homebrew demos or flash cartridges with ModRetro Chromatic.",
+  "homepage": "https://github.com/OpenAI-Partners/ModRetro-Chromatic-Plugin-for-Codex",
+  "interface": {
+    "brandColor": "#7851A9",
+    "brandColorDark": "#7D56AE",
+    "capabilities": [
+      "Game Development",
+      "Interactive",
+      "Hardware",
+      "Gaming"
+    ],
+    "category": "Creativity",
+    "composerIcon": "./.codex-plugin/assets/composer-icon.png",
+    "defaultPrompt": [
+      "Help me create and playtest a Game Boy Color game with ModRetro Chromatic."
+    ],
+    "developerName": "ModRetro",
+    "displayName": "ModRetro Chromatic Plugin",
+    "logo": "./.codex-plugin/assets/logo.png",
+    "longDescription": "Make your own games for ModRetro Chromatic, directly in Codex. Turn your ideas into playable adventures. Create worlds, design characters and pixel art, write dialogue, and test your game as it takes shape. \n\nWhen you're ready,  flash your game to the compatible ModRetro Chromatic Game Cartridge. Then pick up your Chromatic and play what you created. Built on GB Studio and the Chromatic Firmware Updater, the plugin creates Game Boy and Game Boy Color games that remain fully editable in GB Studio.\n\nCartridge activation keys are exclusive to the ModRetro Chromatic: DevDay Edition. Each activation key is limited to two devices. ",
+    "privacyPolicyURL": "https://modretro.com/policies/privacy-policy?srsltid=AU7gw4XWk5NFm5FjWUjEN_K1XbAQPEB0g1AVHrebaM92lWH-fqiFS1_m",
+    "shortDescription": "Create games for Chromatic.",
+    "supportURL": "https://support.modretro.com/",
+    "termsOfServiceURL": "https://modretro.com/pages/eula?srsltid=AU7gw4XP2b5xpkCitagg5b3z-Ix11uWAkAPTfoTvVvkvGm1n_rzCDOUT",
+    "websiteURL": "https://modretro.com/"
+  },
+  "keywords": [
+    "modretro",
+    "chromatic",
+    "game-boy",
+    "game-boy-color",
+    "modretro-chromatic",
+    "pixel-art",
+    "game-development",
+    "mcp"
+  ],
+  "license": "SEE LICENSE IN THIRD_PARTY_NOTICES.md",
+  "mcpServers": "./.mcp.json",
+  "name": "modretro-chromatic",
+  "repository": "https://github.com/OpenAI-Partners/ModRetro-Chromatic-Plugin-for-Codex",
+  "skills": "./skills/",
+  "version": "1.0.33+codex.distribution.66e8961d3ce30093ea3c9ee4"
+}

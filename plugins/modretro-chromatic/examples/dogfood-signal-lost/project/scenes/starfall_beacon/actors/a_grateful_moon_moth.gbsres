@@ -1,0 +1,41 @@
+{
+  "_resourceType": "actor",
+  "id": "019ff100-0000-4000-8000-000000000305",
+  "_index": 0,
+  "symbol": "actor_a_grateful_moon_moth",
+  "prefabId": "",
+  "name": "A Grateful Moon Moth",
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "019ff100-0000-4000-8000-000000000103",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "49f3f6b6-e186-5153-abac-12031f5f1836",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Tiny lights can\ntravel so far.",
+        "avatarId": ""
+      },
+      "__type": "event"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

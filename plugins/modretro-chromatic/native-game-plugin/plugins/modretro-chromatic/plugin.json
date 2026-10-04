@@ -1,0 +1,9 @@
+{
+  "type": "eventsPlugin",
+  "name": "Optional Hardware Profile Event",
+  "author": "Codex Game Development",
+  "description": "Optional hardware-profile branching for native Game Boy and Game Boy Color projects.",
+  "license": "MIT",
+  "version": "0.1.0",
+  "gbsVersion": ">=4.3.0 <5.0.0"
+}

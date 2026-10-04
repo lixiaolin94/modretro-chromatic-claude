@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Moonmoss Cove",
+  "symbol": "scene_moonmoss_cove",
+  "x": 240,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "019ff100-0000-4000-8000-000000000002",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "d55df925-75b8-4390-8f03-0e78e6794d17",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "MOONMOSS COVE\nThe beacon fades",
+        "avatarId": ""
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f15+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f15+"
+}
