@@ -8,17 +8,40 @@
 
 需要 Node.js 22+（在 Claude Code 使用的 PATH 里）。
 
-在 Claude Code 里：
+在 Claude Code 里依次执行（直接从 GitHub 安装，无需下载代码）：
 
 ```text
-/plugin marketplace add <本仓库路径>
+/plugin marketplace add lixiaolin94/modretro-chromatic-claude
+```
+
+```text
 /plugin install modretro-chromatic@modretro-chromatic-claude
 ```
 
-或命令行：
+或在终端里：
 
 ```bash
-claude plugin marketplace add "<本仓库路径>"
+claude plugin marketplace add lixiaolin94/modretro-chromatic-claude
+```
+
+```bash
+claude plugin install modretro-chromatic@modretro-chromatic-claude
+```
+
+更新到最新版本：
+
+```bash
+claude plugin marketplace update modretro-chromatic-claude
+```
+
+### 从本地克隆安装（开发用）
+
+```bash
+git clone https://github.com/lixiaolin94/modretro-chromatic-claude.git ~/Documents/GitHub/modretro-chromatic-claude
+```
+
+```bash
+claude plugin marketplace add ~/Documents/GitHub/modretro-chromatic-claude
 ```
 
 ```bash

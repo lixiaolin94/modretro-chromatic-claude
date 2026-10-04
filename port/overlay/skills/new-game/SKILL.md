@@ -74,3 +74,6 @@ When the user wants it on a Chromatic, switch to the
 [deployment skill](../deployment/SKILL.md): vendor CLI check, device discovery,
 then a live `play` stream or a consented cartridge `flash` of the exact inspected
 ROM. Developer Mode activation happens only in the official ModRetro Updater.
+Without an activation code (any non-DevDay Chromatic), follow the deployment
+skill's "Without a Developer Mode activation code" loop: live `play` demo plus a
+user-owned flash cartridge for native tests.
